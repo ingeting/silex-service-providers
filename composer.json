@@ -11,7 +11,6 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "facebook/php-sdk": "dev-master",
         "silex/silex": "1.0.*"
     },
     "autoload": {
