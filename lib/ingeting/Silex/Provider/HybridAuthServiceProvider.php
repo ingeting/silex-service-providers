@@ -44,4 +44,8 @@ class HybridAuthServiceProvider implements ServiceProviderInterface
             return new \Hybrid_Auth($config);
         });
     }
+    
+    public function boot() {
+	    
+    }
 }

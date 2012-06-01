@@ -29,6 +29,10 @@ class ParisProvider implements ServiceProviderInterface
             return new ParisWrapper();
         });
     }
+    
+    public function boot() {
+	    
+    }
 }
  
 class ParisWrapper
